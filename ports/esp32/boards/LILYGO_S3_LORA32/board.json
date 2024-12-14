@@ -1,0 +1,23 @@
+{
+    "deploy": [
+        "../deploy_s3.md"
+    ],
+    "docs": "",
+    "features": [
+        "BLE",
+        "Display",
+        "External Flash",
+        "LoRa",
+        "SDCard",
+        "USB",
+        "WiFi"
+    ],
+    "images": [
+        "generic_s3.jpg"
+    ],
+    "mcu": "esp32s3",
+    "product": "LILYGO T3S3 LoRa32",
+    "thumbnail": "",
+    "url": "https://lilygo.cc/products/t3s3-v1-0",
+    "vendor": "LILYGO"
+}
