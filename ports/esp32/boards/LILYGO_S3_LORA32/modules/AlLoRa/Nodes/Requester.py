@@ -227,6 +227,7 @@ class Requester(Node):
                             sleep(1)
                             self.send_lora(final_ok)
                             self.status['Chunk'] = "DONE"
+                            self.last_reply = file.get_content()
                             if print_file:
                                 print(file.get_content())
                             if save_file:
